@@ -1,0 +1,157 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/13maquetas.css">
+    <title>MAQUETA</title>
+</head>
+<body>
+    <header>
+        <h1>FORMULARIO</h1>
+    </header>
+    <nav></nav>
+    <main>
+        <aside>
+            <a id="boton" href="biografia.html">BIOGRAFIA</a>
+            <a id="boton" href="hobbies.html">HOBBIES</a>
+            <a id="boton" href="tablas.html">TABLA</a>
+            <a id="boton" href="quienestim.html">TIM</a>
+            <a id="boton" href="css.html">CSS</a>
+            <a id="boton" href="infografias.html">INFOGRAFIAS</a>
+            <a id="boton" href="formulario.html">FORMULARIO</a>
+        </aside>
+        <section><h1><body>
+
+    <center>
+        <h1 style="color: brown;">FORMULARIO HTML</h1>
+    </center>
+
+    <hr>
+    <br>
+    <br>
+
+    <form action="#" method="post">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos">
+        <br><br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo">
+        <br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+        <br><br>
+
+        <label>Fecha de Nacimiento:</label>
+
+        <select name="dia">
+            <option value="">Día</option>
+            <script>
+                for (let d = 1; d <= 31; d++) {
+                    document.write("<option>" + d + "</option>");
+                }
+            </script>
+        </select>
+
+        <select name="mes">
+            <option value="">Mes</option>
+            <option>Enero</option>
+            <option>Febrero</option>
+            <option>Marzo</option>
+            <option>Abril</option>
+            <option>Mayo</option>
+            <option>Junio</option>
+            <option>Julio</option>
+            <option>Agosto</option>
+            <option>Septiembre</option>
+            <option>Octubre</option>
+            <option>Noviembre</option>
+            <option>Diciembre</option>
+        </select>
+
+        <select name="anio">
+            <option value="">Año</option>
+            <script>
+                for (let a = 2000; a <= 2026; a++) {
+                    document.write("<option>" + a + "</option>");
+                }
+            </script>
+        </select>
+
+        <br><br>
+
+        <label for="facebook">Link de Facebook:</label>
+        <input type="url" id="facebook" name="facebook">
+        <br><br>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena">
+        <br><br>
+
+        <label for="observaciones">Observaciones:</label>
+        <textarea id="observaciones" name="observaciones"></textarea>
+        <br><br>
+
+        <label for="hermanos">Número de Hermanos:</label>
+        <input type="number" id="hermanos" name="hermanos" min="0">
+        <br><br>
+
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero">
+            <option value="">Selecciona</option>
+            <option>Masculino</option>
+            <option>Femenino</option>
+            <option>Otro</option>
+            <option>Prefiero no decirlo</option>
+        </select>
+
+        <br><br>
+
+        <label for="semestre">Semestre:</label>
+        <select id="semestre" name="semestre">
+            <option value="">Selecciona</option>
+            <option>Primer semestre</option>
+            <option>Segundo semestre</option>
+            <option>Tercer semestre</option>
+            <option>Cuarto semestre</option>
+            <option>Quinto semestre</option>
+            <option>Sexto semestre</option>
+        </select>
+
+        <br><br>
+
+        <label for="carrera">Carrera:</label>
+        <input list="carreras" id="carrera" name="carrera">
+
+        <datalist id="carreras">
+            <option value="Programación">
+            <option value="Contabilidad">
+            <option value="Electrónica">
+            <option value="Mecatrónica">
+            <option value="Logística">
+        </datalist>
+
+        <br><br>
+
+        <input type="hidden" name="matricula" value="123456">
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+
+    </form>
+<br><br>
+
+<a href="index.html">REGRESAR A LA PÁGINA PRINCIPAL</a>
+</h1></section>
+    </main>
+    <footer><h1>EMILIO ESPINOSA</h1></footer>
+</body>
+</html>
+```[cite: 2]
